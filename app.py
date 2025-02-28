@@ -8,7 +8,7 @@ st.title("🤖 AI 챗봇")
 st.write("💬 질문을 입력하면 AI가 답변합니다. ('exit' 입력 시 종료)")
 
 # 로컬 서버 설정
-SERVER_IP = "http://192.168.0.39:4444"
+SERVER_IP = " https://8fa8-220-78-35-86.ngrok-free.app"
 MODEL_NAME = "gemma-2-2b-it"
 
 chat = ChatOpenAI(
