@@ -20,7 +20,7 @@ chat = ChatOpenAI(
 
 # 프롬프트 설정
 chat_prompt = ChatPromptTemplate.from_messages([
-    ("system", "너는 재료역학 전문가야 재료역학에 대해서 설명해줘."),
+    ("system", "당신은 재료역학의 전문가입니다."),
     ("user", "{user_input}"),
 ])
 
